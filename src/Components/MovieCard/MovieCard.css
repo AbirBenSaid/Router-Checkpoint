@@ -1,0 +1,15 @@
+  .CardStack {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    padding: 10px;
+  }
+  
+  
+  
+  .pic {
+  width: 100%;
+  }
+ 
+  
