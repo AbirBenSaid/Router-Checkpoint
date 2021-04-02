@@ -2,7 +2,7 @@ import React from 'react'
 import './Nav.css'
 import ReactStars from 'react-stars';
 import {Navbar, Nav, Button, Form, FormControl} from "react-bootstrap"
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,9 +13,13 @@ function MyNavbar({getRateSearch, getTitleSearch}) {
   };
     return (
       <Navbar bg="dark" variant="dark" style={{display:"flex",justifyContent:"space-evenly", background:"#ECECEC"}}>
+    <Link to={"/"}> 
     <Navbar.Brand href="#home">MovieApp</Navbar.Brand>
+    </Link>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
+    <Link to={"/Movies"}>
+      <Nav.Link href="#home">Movie List</Nav.Link>
+      </Link>
       <Nav.Link href="#features">Features</Nav.Link>
       <Nav.Link href="#pricing">Pricing</Nav.Link>
     </Nav>

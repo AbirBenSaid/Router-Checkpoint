@@ -3,7 +3,7 @@ import React from 'react';
 
 function MovieList({myMovies, rateSearch, titleSearch}) {
     return (
-            <div>
+            <div style={{ textAlign:"center",  marginLeft: "auto", marginRight: "auto" }}>
             {myMovies
             .filter(el=> el.rate>= rateSearch && el.title.toLowerCase().includes(titleSearch.toLowerCase()) )
             .map((el) => <MovieCard movie={el}/>)} 

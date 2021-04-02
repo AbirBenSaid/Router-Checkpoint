@@ -7,3 +7,13 @@
   justify-content: center;
   
   }
+  .whole
+  {
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/halation_movies_film_art_background_vector_581757.jpg"); 
+    background-color: #b0e6e3;
+     height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    /* background-image: linear-gradient(rgb(177, 243, 240), rgb(129, 191, 241), rgb(141, 236, 192)); */
+  }
