@@ -9,7 +9,8 @@ function TrailerCard ({movie} ) {
  let Id=useParams()
 
 
- 
+ console.log(typeof Id)
+ console.log(Id)
     return (
 
 <Card border="primary" style={{ width: '50%',textAlign:"center",  marginLeft: "auto", marginRight: "auto" }}>
